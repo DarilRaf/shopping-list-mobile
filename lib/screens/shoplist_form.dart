@@ -125,7 +125,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                         // Kirim ke Django dan tunggu respons
 
                         final response = await request.postJson(
-                            "http://10.0.2.2:8000/create-flutter/",
+                            "https://daril-muhammad-tutorial.pbp.cs.ui.ac.id/create-flutter/",
                             jsonEncode(<String, String>{
                               'name': _name,
                               'price': _price.toString(),
